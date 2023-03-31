@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Music collection"/>
+        <meta name="keywords" content="music"/>
+        <meta name="author" content="Emilia"/>
+        <title>Music collection</title>
+        <link rel="stylesheet" href="../styles.css"/>
+        <script type="module" src="album_add.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Music collection</h1>
+            </header>
+
+            <nav class="navigation-bar">
+                <ul>
+                    <li><a href="../index.html">main</a></li>
+                    <li><a href="../album_list/album_list.html">album list</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-section">
+                <article class="text--justified">
+                    <header><h2>Add album info</h2></header>
+                    <form class="album__form" id="infoForm">
+                        <label for="name">Name:</label>
+                        <input class="ui-control ui-input" id="name" name="name"/>
+                        <br>
+                        <label for="artist">Artist:</label>
+                        <input class="ui-control ui-input" id="artist" name="artist"/>
+                        <br>
+                        <label for="releaseYear">Release year:</label>
+                        <input class="ui-control ui-input" id="releaseYear" name="releaseYear"/>
+                        <br>
+                        <label for="length">Length:</label>
+                        <input class="ui-control ui-input" id="length" name="length"/>
+                        <br>
+                        <input class="ui-control ui-button" type="submit" name="Add"/>
+                    </form>
+                </article>
+            </section>
+
+            <footer class="footer">
+                <p>Emilia</p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+GET http://localhost:8080/api/songs/
+
+###
+
+GET http://localhost:8080/api/albums/3/songs
+
+###
+
+GET http://localhost:8080/api/albums/3
+
+###
+
+GET http://localhost:8080/api/albums/1
+
+
+###
+GET http://localhost:8080/api/songs/4
+
+###
+POST http://localhost:8080/api/albums/
+Content-Type: application/json
+
+{
+  "name": "MAGDALENE",
+  "artist": "FKA twigs",
+  "year_of_release": 2019,
+  "length": 38.52
+}
+
+
+###
+
+POST http://localhost:8080/api/songs/
+Content-Type: application/json
+
+{
+  "name": "fallen alien",
+  "length": "5:53",
+  "rate": 10
+
+}
+
+###
+
+DELETE http://localhost:8080/api/albums/3/
+
+###
+PUT http://localhost:8080/api/songs/7
+Content-Type: application/json
+
+{
+  "name": "AAAAAAA",
+  "length": "AAAAAA",
+  "rate": 0
+}
+###
+
+GET http://localhost:8080/api/albums/3
+
+###
+
+
+
+
+
+
